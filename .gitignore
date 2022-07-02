@@ -3,6 +3,11 @@
 *.zip
 *.parquet
 
+# ignore mp3 of dl_sprint
+./dl_sprint/test_files
+./dl_sprint/validation_files
+./dl_sprint/train_files
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
